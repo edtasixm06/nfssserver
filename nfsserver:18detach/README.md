@@ -15,8 +15,8 @@ En global s'engega el servidor ldap, el servidor nfs i el host amb pam configura
 
 ```
 docker run --rm --name ldap -h ldap --net ldapnet -d edtasixm06/ldapserver:18group
+docker run --rm --name nfsserver -h nfserver --net ldapnet --privileged -d edtasixm06/nfsserver:18detach
 docker run --rm --name host -h host --net ldapnet --privileged -it edtasixm06/hostpam:18homenfs
-docker run --rm --name nfsserver -h nfserver --net ldapnet --privileged -it edtasixm06/nfsserver:18base
 ```
 
 #### Configuracions
