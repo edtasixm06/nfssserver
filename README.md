@@ -1,6 +1,12 @@
 # NFS
 ## @edt ASIX M06-ASO Curs 2018-2019
 
+Podeu trobar les imatges docker al Dockehub de [edtasixm06](https://hub.docker.com/u/edtasixm06/)
+
+Podeu trobar la documentació del mòdul a [ASIX-M06](https://sites.google.com/site/asixm06edt/)
+
+ASIX M06-ASO Escola del treball de barcelona
+
 Servidor NFS
 
  * **nfsserver:18base** Servidor nfs. Com a host està configurat amb PAM+LDAP. S'hi creen usuaris locals i té accés via LDAP als usuaris de xarxa.
