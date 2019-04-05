@@ -7,7 +7,7 @@ Podeu trobar la documentació del mòdul a [ASIX-M06](https://sites.google.com/s
 
 ASIX M06-ASO Escola del treball de barcelona
 
-Servidor NFS
+## Servidor NFS
 
  * **nfsserver:18base** Servidor nfs. Com a host està configurat amb PAM+LDAP. S'hi creen usuaris locals i té accés via LDAP als usuaris de xarxa.
 Crea els homes dels usuaris (respectant el home indicat al LDAP de cada usuari), li posa xixa al home i li assigna l'usuari i grup apropiat. Exporta els
